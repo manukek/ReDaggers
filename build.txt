@@ -1,0 +1,4 @@
+displayName = ReDaggers
+author = Manukq, MNQ Corporation
+version = 0.1
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, lib\*, *.md

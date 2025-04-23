@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReDaggers", "ReDaggers.csproj", "{42E18AB1-6972-CF45-B9C3-AAB7462923A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E18AB1-6972-CF45-B9C3-AAB7462923A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E18AB1-6972-CF45-B9C3-AAB7462923A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E18AB1-6972-CF45-B9C3-AAB7462923A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E18AB1-6972-CF45-B9C3-AAB7462923A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A036F53-FBBC-4B4F-B067-4E312E9E67B6}
+	EndGlobalSection
+EndGlobal
