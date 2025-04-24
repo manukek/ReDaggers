@@ -1,5 +1,31 @@
 # This file will automatically update with entries for new content after a build and reload.
 
+Mods: {
+	ReDaggers: {
+		DisplayName: ReDaggers
+		Description: Полная переработка системы кинжалов в Terraria
+
+		Items: {
+			RDG: {
+				DisplayName: Метательный кинжал
+				Tooltip: Базовый метательный кинжал
+			}
+		}
+
+		Projectiles: {
+			DaggerSlash: {
+				DisplayName: Взмах кинжалом
+				Description: Взмах кинжалом в воздухе
+			}
+
+			ThrownDagger: {
+				DisplayName: Брошенный кинжал
+				Description: Кинжал, летящий по воздуху
+			}
+		}
+	}
+}
+
 Items: {
 	RDG: {
 		DisplayName: R D G
