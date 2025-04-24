@@ -41,7 +41,7 @@ ReDaggers полностью перерабатывает систему кин�
 <a name="english"></a>
 <div align="center">
 
-## 🇬🇧 English
+## 🇺🇸 English
 
 </div>
 
