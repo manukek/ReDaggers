@@ -1,19 +1,27 @@
 # This file will automatically update with entries for new content after a build and reload.
 
-Items: {
-	RDG: {
-		DisplayName: R D G
-		Tooltip:
-			'''
-			Template of an item
-			Replacing this tooltip is duty 
-			It's snowing on Mt.Fuji
-			'''
-	}
-}
+Mods: {
+	ReDaggers: {
+		DisplayName: ReDaggers
+		Description: A complete overhaul of the dagger system in Terraria
 
-Projectiles: {
-	ThrownDagger.DisplayName: Thrown Dagger
-	Mods.ReDaggers.Projectiles.DaggerSlash.DisplayName: Dagger Slash
-	DaggerSlash.DisplayName: Dagger Slash
+		Items: {
+			RDG: {
+				DisplayName: Throwing Dagger
+				Tooltip: A basic throwing dagger
+			}
+		}
+
+		Projectiles: {
+			DaggerSlash: {
+				DisplayName: Dagger Slash
+				Description: A slash from a dagger
+			}
+
+			ThrownDagger: {
+				DisplayName: Thrown Dagger
+				Description: A dagger thrown through the air
+			}
+		}
+	}
 }

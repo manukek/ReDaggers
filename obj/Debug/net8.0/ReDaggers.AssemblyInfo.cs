@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReDaggers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc1fce771dedf770cabfdc99b3b3a98aa7168fc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d08a5c10abeb42bf350499a688b1b20864194ab7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReDaggers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReDaggers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
