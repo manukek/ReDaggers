@@ -2,8 +2,6 @@
 
 # 🗡️ ReDaggers
 
-<img src="icon.png" alt="ReDaggers Banner">
-
 [![Version](https://img.shields.io/badge/version-0.1.5.Alpha-yellow)](https://github.com/manukek/ReDaggers/releases)
 [![tModLoader](https://img.shields.io/badge/tModLoader-2025.03-yellow)](https://store.steampowered.com/app/1281930/tModLoader/)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/manukek/ReDaggers/LICENSE)
