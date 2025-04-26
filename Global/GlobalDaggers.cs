@@ -10,7 +10,9 @@ namespace ReDaggers.Global
     public class GlobalDaggers : GlobalItem
     {
         public override bool InstancePerEntity => true;
-        public override bool AltFunctionUse(Item item, Player player) => true;
+        public override bool AltFunctionUse(Item item, Player player) {
+            return true; 
+        }
 
         public override bool AppliesToEntity(Item item, bool lateInstantiation)
         {

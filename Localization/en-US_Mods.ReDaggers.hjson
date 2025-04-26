@@ -25,3 +25,15 @@ Mods: {
 		}
 	}
 }
+
+Items: {
+	RDG: {
+		DisplayName: R D G
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	DaggerSlash.DisplayName: Dagger Slash
+	ThrownDagger.DisplayName: Thrown Dagger
+}
