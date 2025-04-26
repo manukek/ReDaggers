@@ -39,7 +39,6 @@ Items: {
 }
 
 Projectiles: {
-	ThrownDagger.DisplayName: Кидание кинжала
-	// Mods.ReDaggers.Projectiles.DaggerSlash.DisplayName: Dagger Slash
 	DaggerSlash.DisplayName: Взмах кинжала
+	ThrownDagger.DisplayName: Кидание кинжала
 }

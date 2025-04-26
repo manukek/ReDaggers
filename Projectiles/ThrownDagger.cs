@@ -12,7 +12,7 @@ namespace ReDaggers.Projectiles
             Main.projFrames[Projectile.type] = 1;
         }
 
-        // public override string Texture => $"Terraria/Images/Item_{Main.player[Projectile.owner].HeldItem.type}";
+        public override string Texture => $"Terraria/Images/Item_{Main.player[Projectile.owner].HeldItem.type}";
 
         public override void SetDefaults()
         {
