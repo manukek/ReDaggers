@@ -1,0 +1,36 @@
+name: Feature Request ✨
+description: Suggest an idea for ReDaggers mod
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement for the mod!
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe your feature in detail
+      placeholder: "I would like to suggest adding..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-solution
+    attributes:
+      label: What problem does this solve?
+      description: Describe why this enhancement would be useful
+      placeholder: "This enhancement would help..."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Describe any alternative solutions or features you've considered
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any screenshots, concept art, or additional information here

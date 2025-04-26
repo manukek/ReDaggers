@@ -1,0 +1,48 @@
+name: Сообщение об ошибке 🐛
+description: Сообщить о проблеме или баге в моде ReDaggers
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Пожалуйста, заполните форму ниже.
+        
+  - type: input
+    id: tmod-version
+    attributes:
+      label: Версия tModLoader
+      placeholder: "Например: 1.4.4.9"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Версия ReDaggers
+      placeholder: "Например: 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Опишите проблему максимально подробно
+      placeholder: "Опишите, что вы делали, когда возникла ошибка..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи ошибок
+      description: Если есть логи, вставьте их сюда
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Если возможно, добавьте скриншоты проблемы (можно перетащить изображения сюда)
+    validations:
+      required: true
