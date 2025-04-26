@@ -1,0 +1,48 @@
+name: Bug Report 🐛
+description: Report an issue or bug in ReDaggers mod
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+  - type: input
+    id: tmod-version
+    attributes:
+      label: tModLoader Version
+      placeholder: "Example: 1.4.4.9"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: ReDaggers Version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the issue in detail
+      placeholder: "Tell us what happened when the error occurred..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: If you have any error messages, paste them here
+      render: shell
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem (you can drag and drop images here)
+    validations:
+      required: true

@@ -1,0 +1,36 @@
+name: Предложение по улучшению ✨
+description: Предложить идею для мода ReDaggers
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Пожалуйста, заполните форму ниже.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Описание предложения
+      description: Подробно опишите вашу идею
+      placeholder: "Я хотел бы предложить добавить..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-solution
+    attributes:
+      label: Какую проблему это решает?
+      description: Опишите, почему это улучшение будет полезным
+      placeholder: "Это улучшение поможет..."
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Альтернативные решения
+      description: Опишите альтернативные решения или функции, которые вы рассмотрели
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Дополнительный контекст
+      description: Добавьте любые скриншоты, концепт-арты или дополнительную информацию здесь
